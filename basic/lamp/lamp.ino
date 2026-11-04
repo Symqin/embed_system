@@ -1,12 +1,14 @@
+#define lamp 12;
 
 void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(lamp, OUTPUT);
+  serial.begin(115200)
 }
 
 void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);
+  digitalWrite(lamp, HIGH);
   delay(1000);
-
-  digitalWrite(LED_BUILTIN, LOW);
+  digitalWrite(lamp, LOW);
   delay(1000);
 }
+

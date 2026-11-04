@@ -1,8 +1,8 @@
 
-const int pir = 2;
-const int ledMerah = 8;
-const int ledHijau = 7;
-const int buzzer = 6;
+const int pir = 4;
+const int ledMerah = 13;
+const int ledHijau = 12;
+const int buzzer = 14;
 
 int statusPIR;
 
