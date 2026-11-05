@@ -1,3 +1,9 @@
+// ============================================================
+// SUGGESTION:
+// echo memakai GPIO12 (MTDI) — strapping pin. Aman selama echo LOW
+// saat boot, tapi lebih baik pindah ke pin bebas, misal GPIO16.
+// -> Contoh: #define echo 16
+// ============================================================
 #define trig 13
 #define echo 12
 float dur = 0;
@@ -20,7 +26,7 @@ void loop() {
   
 
   //terima durasi dan jarak
-  dur = pulseIn(echo, HIGH);
+  dur = pulseIn(echo, HIGH, 30000);
   dis = dur/58;
 
   Serial.print("Distance: ");

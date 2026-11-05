@@ -1,4 +1,11 @@
 
+// ============================================================
+// SUGGESTION:
+// ledHijau memakai GPIO12 (MTDI) — strapping pin, hindari utk output.
+// -> Ganti ledHijau ke pin bebas, misal GPIO18 (ledMerah & buzzer aman).
+// NOTE: pir di GPIO4 aman utk digitalRead, tapi hindari analogRead di
+// pin ini saat WiFi aktif (GPIO4 termasuk ADC2).
+// ============================================================
 const int pir = 4;
 const int ledMerah = 13;
 const int ledHijau = 12;

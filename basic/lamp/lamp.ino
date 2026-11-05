@@ -1,3 +1,10 @@
+// ============================================================
+// SUGGESTION:
+// GPIO12 (MTDI) adalah strapping pin ESP32. Dilarang keras / hindari
+// memakainya sebagai OUTPUT yang bisa HIGH saat boot (bisa gagal boot).
+// -> Ganti ke pin output bebas, misal GPIO18 / 19 / 23.
+//    Contoh: #define lamp 18
+// ============================================================
 #define lamp 12
 
 void setup() {

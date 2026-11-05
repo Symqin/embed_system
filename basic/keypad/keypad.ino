@@ -14,6 +14,9 @@ char keys[ROWS][COLS] = {
 };
 
 // Konfigurasi pin ESP32
+// SUGGESTION: GPIO12 pada rowPins adalah strapping pin (MTDI).
+// Umumnya tetap berfungsi (loop baru menulis HIGH setelah boot selesai),
+// tapi jika mengalami boot error, ganti 12 -> pin bebas (mis. 32).
 // Row
 byte rowPins[ROWS] = {14, 12, 13, 15};
 

@@ -1,3 +1,9 @@
+// ============================================================
+// SUGGESTION:
+// Logika di bawah mengasumsikan modul IR obstacle AKTIF-LOW
+// (ada objek = output LOW), contoh modul HW-201/FC-51.
+// -> Jika modulmu AKTIF-HIGH, balik kondisinya (statusIR == HIGH).
+// ============================================================
 #define ir 4
 
 void setup() {

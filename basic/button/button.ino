@@ -1,3 +1,9 @@
+// ============================================================
+// SUGGESTION:
+// Belum ada debounce (anti-bouncing). Saat tombol ditekan, nilai bisa
+// naik-turun sangat cepat. Untuk hasil stabil tambahkan debounce
+// memakai millis() + lastDebounceTime (atau library seperti Bounce2).
+// ============================================================
 #define button 13
 #define lamp 23
 
