@@ -10,7 +10,7 @@ void setup() {
 void loop() {
   int tombol = digitalRead(button);
 
-  if (button == LOW) {
+  if (tombol == LOW) {
     digitalWrite(lamp, HIGH);
     Serial.println("button_ditekan");
   } else {

@@ -1,8 +1,8 @@
-#define lamp 12;
+#define lamp 12
 
 void setup() {
   pinMode(lamp, OUTPUT);
-  serial.begin(115200)
+  Serial.begin(115200);
 }
 
 void loop() {
