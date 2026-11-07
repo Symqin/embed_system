@@ -1,4 +1,16 @@
+/*
+soal 4
+uatlah rangkaian dengan aturan sebagai berikut:
+a. Terdapat 3 LED, 1 push button, dan 1 buzzer.
+b. Pada kondisi awal, Lampu 1 menyala sedangkan Lampu 2 dan Lampu 3 dalam keadaan mati.
+c. Ketika push button ditekan, Lampu 1 akan berkedip sebanyak 5 kali dengan interval 1 detik.
+d. Tampilkan pada Serial Monitor jumlah kedipan Lampu 1 setiap kali lampu menyala.
+e. Setelah Lampu 1 selesai berkedip, Lampu 1 akan mati dan Lampu 2 menyala.
+f. Bersamaan dengan Lampu 2 menyala, buzzer akan berbunyi sebanyak 3 kali.
+g. Setelah buzzer selesai berbunyi, Lampu 2 akan mati dan Lampu 3 akan berkedip sebanyak 10 kali dengan interval 500 ms.
+h. Setelah seluruh proses selesai, Lampu 3 akan mati dan sistem kembali ke kondisi awal. 
 
+*/
 #define lamp1 12
 #define lamp2 13
 #define lamp3 14
